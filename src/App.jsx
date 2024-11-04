@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import RapidsLogo from './assets/RapidsLogo.jpg'
 import Header from './components/Header'
 import HomeContainer from './containers/HomeContainer'
 
@@ -9,7 +8,6 @@ function App() {
 
   return (
     <>
-    <h1>Kelvin Rapids</h1>
     <BrowserRouter>
       <Header/>
       <Routes>
