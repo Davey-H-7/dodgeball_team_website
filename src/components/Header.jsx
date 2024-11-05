@@ -1,6 +1,6 @@
 import RapidsLogo from '../assets/RapidsLogo.jpg'
 import { Link } from 'react-router-dom'
-
+import '../styling/Header.css'
 
 
 
@@ -9,7 +9,7 @@ export default function Header(){
     return(
         <div className="header">
             <div className='title'>
-            <img className="logo" src = {RapidsLogo}/>
+            <a href ="/"><img className="logo" src = {RapidsLogo}/></a>
             <h1>Kelvin Rapids Dodgeball Club</h1>
             </div>
             <ul className="links">

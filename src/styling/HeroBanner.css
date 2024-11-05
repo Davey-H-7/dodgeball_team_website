@@ -1,0 +1,25 @@
+.heroBanner {
+    min-height: 80vh;
+    min-width: 100vw;
+    position: relative;
+}
+
+.heroBanner img{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    max-height: 80vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.heroBanner h2{
+    position: absolute;
+    font-size: 3rem;
+    color: white;
+    left: 10vw;
+    bottom: 10vh;
+    margin:0;
+
+}

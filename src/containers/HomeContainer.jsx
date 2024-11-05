@@ -1,5 +1,14 @@
+import HeroBanner from '../components/HeroBanner'
+
 export default function HomeContainer(){
+
+    let imgURL = 'RapidsTeam.jpg';
+
     return(
-        <h2>This is home</h2>
+        <div className="home">
+
+            <HeroBanner imgURL = {imgURL}/>
+
+        </div>
     )
-}
+};
