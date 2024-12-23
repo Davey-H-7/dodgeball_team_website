@@ -1,4 +1,4 @@
-import HeroBanner from '../components/HeroBanner'
+import HomeBanner from '../components/HomeBanner'
 
 export default function HomeContainer(){
 
@@ -7,7 +7,7 @@ export default function HomeContainer(){
     return(
         <div className="home">
 
-            <HeroBanner imgURL = {imgURL}/>
+            <HomeBanner imgURL = {imgURL}/>
 
         </div>
     )

@@ -1,17 +1,17 @@
-
+import TeamPhoto from '../assets/RapidsTeam.jpg'
 import '../styling/HomeBanner.css'
 
-const HeroBanner = (imgURL, headerText) => {
+const HomeBanner = (imgURL) => {
     console.log('../assets/' + imgURL.imgURL)
     return (
-        <div className="heroBanner">
-              <img src = {imgURL}/>
+        <div className="homeBanner">
+              <img src = {TeamPhoto}/>
               <div className="overlay">
-                <h2> {headerText}</h2>
+                <h2> Feeling Rapid yet?</h2>
                 <button onClick={()=>window.location="/about"}> Find out More </button>
               </div>
         </div>
      );
 }
  
-export default HeroBanner;
+export default HomeBanner;

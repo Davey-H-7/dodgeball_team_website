@@ -1,10 +1,10 @@
-.heroBanner {
+.homeBanner {
     min-height: 80vh;
     min-width: 100vw;
     position: relative;
 }
 
-.heroBanner img{
+.homeBanner img{
     position: absolute;
     top:0;
     left:0;
@@ -14,7 +14,7 @@
     z-index: -1;
 }
 
-.heroBanner .overlay{
+.homeBanner .overlay{
     position: absolute;
     color: white;
     left: 8vw;
@@ -26,12 +26,12 @@
 
 }
 
-.heroBanner h2{
+.homeBanner h2{
     font-size: 3rem;
     margin: 0;
 }
 
-.heroBanner button{
+.homeBanner button{
     font-size: 1.5rem;
     border-color: var(--primary);
     border-width: 3px;
