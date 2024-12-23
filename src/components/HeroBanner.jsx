@@ -1,3 +1,4 @@
+import { redirect } from 'react-router-dom';
 import TeamPhoto from '../assets/RapidsTeam.jpg'
 import '../styling/HeroBanner.css'
 
@@ -6,7 +7,10 @@ const HeroBanner = (imgURL) => {
     return ( 
         <div className="heroBanner">
               <img src = {TeamPhoto}/>
-              <h2> Feeling Rapid yet?</h2>
+              <div className="overlay">
+                <h2> Feeling Rapid yet?</h2>
+                <button onClick={()=>window.location="/about"}> Find out More </button>
+              </div>
         </div>
      );
 }
