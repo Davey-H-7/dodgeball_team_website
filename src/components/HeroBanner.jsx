@@ -1,16 +1,19 @@
+/* eslint-disable react/prop-types */
+import '../styling/HeroBanner.css'
 
-import '../styling/HomeBanner.css'
+const HeroBanner = ({imgURL, headerText}) => {
+    
+    console.log('../assets/' + imgURL)
+    console.log(headerText)
 
-const HeroBanner = (imgURL, headerText) => {
-    console.log('../assets/' + imgURL.imgURL)
+    let heroURL = '../assets/' + imgURL
+
+
     return (
         <div className="heroBanner">
-              <img src = {imgURL}/>
-              <div className="overlay">
+                <img src = {heroURL}/>
                 <h2> {headerText}</h2>
-                <button onClick={()=>window.location="/about"}> Find out More </button>
               </div>
-        </div>
      );
 }
  

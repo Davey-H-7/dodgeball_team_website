@@ -1,8 +1,7 @@
 import TeamPhoto from '../assets/RapidsTeam.jpg'
 import '../styling/HomeBanner.css'
 
-const HomeBanner = (imgURL) => {
-    console.log('../assets/' + imgURL.imgURL)
+const HomeBanner = () => {
     return (
         <div className="homeBanner">
               <img src = {TeamPhoto}/>
