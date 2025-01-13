@@ -13,15 +13,26 @@
     background-image: url("data:image/svg+xml;utf8,%3Csvg width=%222000%22 height=%221400%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3ClinearGradient id=%22a%22 gradientTransform=%22rotate(90)%22%3E%3Cstop offset=%225%25%22 stop-color=%22%2389e4fe%22%2F%3E%3Cstop offset=%2295%25%22 stop-color=%22%23a6eafe%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Cpath fill=%22%23182334%22 d=%22M0 0h2000v1400H0z%22%2F%3E%3Cpath d=%22M0 700c48.368 42.31 96.736 84.622 140 82 43.264-2.622 81.423-50.176 126-92s95.571-77.918 141-55c45.429 22.918 85.292 104.847 128 136 42.708 31.153 88.262 11.53 133-24s88.659-86.969 133-112c44.341-25.031 89.103-23.656 135 3 45.897 26.656 92.93 78.594 138 96 45.07 17.406 88.18.28 133 10 44.82 9.72 91.35 46.287 134 37 42.65-9.287 81.417-64.427 125-86 43.583-21.573 91.982-9.579 137-2 45.018 7.579 86.654 10.743 127-3 40.346-13.743 79.4-44.392 131-55 51.6-10.608 115.743-1.174 141 13 25.257 14.174 11.629 33.087 38 52l-40 700H0Z%22 fill=%22url(%23a)%22%2F%3E%3C%2Fsvg%3E");
       }
 
-      .title{
-        max-height:10vh;
-        font-size: 0.8rem;
-        color: white;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-      }
+    .logoTitleSocials{
+      max-height:10vh;
+      font-size: 0.8rem;
+      color: white;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logoTitle{
+      font-size: 0.8rem;
+      color: white;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2%;
+      width: 60%;
+    }
 
   .logo {
     max-height: 8vh;
@@ -52,6 +63,7 @@
   max-height:10vh;
   display: flex;
   justify-content: space-evenly;
+  padding: 5vh;
   }
 
   .links a {
@@ -64,13 +76,38 @@
     color: white;
   }
 
-  .magicpattern { 
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: repeat;
-    background-image: url("data:image/svg+xml;utf8,%3Csvg width=%222000%22 height=%221400%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3ClinearGradient id=%22a%22 gradientTransform=%22rotate(90)%22%3E%3Cstop offset=%225%25%22 stop-color=%22%2389e4fe%22%2F%3E%3Cstop offset=%2295%25%22 stop-color=%22%23a6eafe%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Cpath fill=%22%23182334%22 d=%22M0 0h2000v1400H0z%22%2F%3E%3Cpath d=%22M0 700c48.368 42.31 96.736 84.622 140 82 43.264-2.622 81.423-50.176 126-92s95.571-77.918 141-55c45.429 22.918 85.292 104.847 128 136 42.708 31.153 88.262 11.53 133-24s88.659-86.969 133-112c44.341-25.031 89.103-23.656 135 3 45.897 26.656 92.93 78.594 138 96 45.07 17.406 88.18.28 133 10 44.82 9.72 91.35 46.287 134 37 42.65-9.287 81.417-64.427 125-86 43.583-21.573 91.982-9.579 137-2 45.018 7.579 86.654 10.743 127-3 40.346-13.743 79.4-44.392 131-55 51.6-10.608 115.743-1.174 141 13 25.257 14.174 11.629 33.087 38 52l-40 700H0Z%22 fill=%22url(%23a)%22%2F%3E%3C%2Fsvg%3E");
+  @media (max-width: 600px) {
+    .header{
+
+        }
+
+      .logoTitleSocials{
+        max-height:10vh;
+        color: white;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .logoTitleSocials h1{
+        font-size: 1rem;
+      }
+
+
+  .socialLinks{
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+    padding: 4vh;
+  }
+
+      .links {
+        visibility: hidden;
+        }
+
+        .logo {
+
+        }
+
   }
   
   
