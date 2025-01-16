@@ -1,5 +1,43 @@
-.AboutText {
+.aboutText {
     display: flex;
     flex-direction: column;
-    font-size: 300px;
+    font-size: larger;
+    font-weight: bold;
+    color: var(--primary);
 }
+
+.rightText {
+    margin-top: 10vh;
+    margin-left: 50vw;
+    background-color: var(--secondary);
+}
+
+.leftText {
+    margin-top: 10vh;
+    margin-right: 50vw;
+    background-color: var(--secondary);
+    padding: 2%;
+
+}
+
+.endText {
+    margin-top: 10vh;
+    background-color: var(--secondary);
+    padding: 2%;
+}
+
+@media (max-width: 600px) {
+
+    .aboutText {
+        font-size: medium;
+
+    }
+
+    .rightText {
+    margin-left: 10vw;
+}
+
+.leftText {
+    margin-right: 10vw;
+}}
+
