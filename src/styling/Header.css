@@ -1,7 +1,7 @@
 .header{
     position:relative;
     top: 0;
-    height:20vh;
+    max-height:20vh;
     min-width:96vw;
     padding: 0vh 2vw 0vh;
     display: flex;
@@ -48,6 +48,7 @@
     display: flex;
     justify-content: space-between;
     gap: 2vw;
+
   }
 
 
@@ -63,7 +64,8 @@
   max-height:10vh;
   display: flex;
   justify-content: space-evenly;
-  padding: 5vh;
+  padding: 3vh;
+  margin:0;
   }
 
   .links a {

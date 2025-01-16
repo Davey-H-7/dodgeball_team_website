@@ -1,7 +1,7 @@
 import HeroBanner from "../components/HeroBanner";
 
-const TeamContainer = () => {
-    let headerText = "Meet the faces behind the club"
+const ContactContainer = () => {
+    let headerText = "Get in Touch"
     let imgURL = "RapidsTeam.jpg";
 
     return ( 
@@ -9,4 +9,4 @@ const TeamContainer = () => {
      );
 }
  
-export default TeamContainer;
+export default ContactContainer;

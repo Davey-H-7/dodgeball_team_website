@@ -22,9 +22,11 @@ export default function Header(){
             </div>
             <ul className="links">
                 <Link to="/about">About</Link>
-                <Link to="/team">Meet the Team</Link>
-                <Link to="/Results">Past Results</Link>
+                <Link to="/News">Club News</Link>
                 <Link to="/find">Find Us</Link>
+                <Link to="/contact">Contact</Link>
+                <Link to="/gallery">Gallery</Link>
+
             </ul>
     </div>
     )
