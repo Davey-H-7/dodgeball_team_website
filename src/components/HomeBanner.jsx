@@ -1,4 +1,4 @@
-import TeamPhoto from '../assets/RapidsTeam.jpg'
+import TeamPhoto from '/RapidsTeam.jpg'
 import '../styling/HomeBanner.css'
 
 const HomeBanner = () => {

@@ -1,6 +1,6 @@
-import RapidsLogo from '../assets/RapidsLogo.jpg'
-import InstagramLogo from '../assets/instagram.png'
-import FacebookLogo from '../assets/facebook.png'
+import RapidsLogo from '/RapidsLogo.jpg'
+import InstagramLogo from '/instagram.png'
+import FacebookLogo from '/facebook.png'
 import { Link } from 'react-router-dom'
 import '../styling/Header.css'
 

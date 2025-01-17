@@ -3,10 +3,10 @@ import '../styling/HeroBanner.css'
 
 const HeroBanner = ({imgURL, headerText}) => {
     
-    console.log('../assets/' + imgURL)
+    console.log('/' + imgURL)
     console.log(headerText)
 
-    let heroURL = '../assets/' + imgURL
+    let heroURL = '/' + imgURL
 
 
     return (
