@@ -1,11 +1,22 @@
 .heroBanner{
     display: flex;
     min-width: 100vw;
-    justify-content: center;
     color: white;
     background-color: var(--primary);
+    margin: 0;
+    padding: 0;
+
+
 }
 
 .heroBanner img{
-    min-width: 50%;
+    width: 40vw;
+    max-height: 20vw;
+    object-fit: cover;
+}
+
+.heroBanner h2{
+
+    margin: auto;
+    height:10%;
 }

@@ -1,5 +1,14 @@
+import HeroBanner from "../components/HeroBanner";
+
 const FindContainer = () => {
-    return ( <h1>Find Us Page</h1> );
+    let headerText = "Where to find us. Come along!"
+    let imgURL = "RapidsTeam.jpg";
+
+    return (         
+    <div className="findUs">
+        <HeroBanner imgURL = {imgURL} headerText = {headerText} />
+
+     </div> );
 }
  
 export default FindContainer;
